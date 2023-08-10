@@ -1,0 +1,98 @@
+/* Reset styles */
+* {
+	box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+/* Header styles */
+header {
+	background-color: #FFB900;
+	padding: 10px;
+	text-align: left;
+}
+
+
+input {
+background-color: #faedcb;
+font-color:  #FFB900 ;
+
+}
+
+/* Form styles */
+form {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+label {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+input[type=text], textarea {
+	border: 1px solid  #faedcb;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	resize: none;
+    background-color:  #faedcb;
+    font-family: 'roboto', sans-serif;
+}
+
+.button-container {
+	display: flex;
+	justify-content: left;
+}
+
+button {
+	background-color: #FFB900;
+	border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+/* Note styles */
+.note-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+}
+
+.note {
+	background-color:  #faedcb;
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 10px;
+	max-width: 500px;
+	word-wrap: break-word;
+}
+
+
+/* Footer styles */
+footer {
+	background-color: #ffec96;
+	border-top: 1px solid #E5E5E5;
+	color: #ffd45e;
+	padding: 10px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
